@@ -554,9 +554,9 @@ function wipeSave(){
   } 
 } 
 function prestige(){ 
-  if(level >= 400){ 
+  if(level >= 100){ 
     if(confirm("Are you sure you want to Prestige? This will get rid of all your numbers, all your levels and all your ball upgrades/clones. It will not get rid of Achievements or Prestige Upgrades. By prestiging you will get 1 Ball Point which gives you 100% more income (additive)") == true){ 
-      ballPoints += Math.pow(2,(Math.floor((level-400)/100))); 
+      ballPoints += Math.pow(2,(Math.floor((level-100)/100))); 
       prestiged++; 
       level = (5*pUpgrades[10]); 
       click.rank = 1; 
