@@ -598,7 +598,7 @@ function prestige(){
     } 
   } 
   else{ 
-    alert("You need to be at level 400 to Prestige.") 
+    alert("You need to be at level 100 to Prestige.") 
   } 
 } 
 function switchTab(evt, tabName) { 
